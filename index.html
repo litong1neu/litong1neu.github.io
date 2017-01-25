@@ -1,40 +1,153 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <style>
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333333;
-        }
-
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 16px;
-            text-decoration: none;
-        }
-
-        li a:hover {
-            background-color: #111111;
-        }
-    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TongLi Personal Website</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Homepage/random_quote_machine/css.css">
+    <link rel="stylesheet" href="css2.css">
 </head>
+
 <body>
+<div class="main-wrapper">
+    <header>
+        <div class="header">
+            <nav>
+                <div class="logo" id="main-button"><a href="">Tong Li</a></div>
+                <div id="container">
+                    <div id="cube" class="animate">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="menu-wrapper">
+                    <button id="menu-icon">MENU</button>
+                    <ul>
+                        <li><a href="#">My Blog</a></li>
+                        <li><a href="subpage/games.html">My Profolio</a></li>
+                        <li><a href="http://codepen.io/tongli/" target="_blank">My Projects</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="banner">
+            <div class="inner">
+                <h1>Tong Li</h1>
+                <p class="sub-heading1">Web Developer</p>
+                <a id="resume" href="resume.pdf" target="_block">Resume</a>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <section class="green-section">
+            <div class="green-wrapper">
+                <div>
+                    <div class="who-am-I-wrapper" style="color:black">
+                        <h2 class="question">Who am I</h2>
+                        <h2 class="answer">Web Developer</h2>
+                    </div>
+                    <div class="hr"></div>
+                    <p class="sub-heading" style="color:black">
+                        Have huge interest and passion on web development.Have a stronge knowledge about HTML(5), CSS(3), JavaScript, and responsive layout.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="gray-section">
+            <div class="article-preview">
+                <div class="img-section">
+                    <img src="img/pic01.jpg" alt="">
+                    <img src="img/pic04.jpg" alt="">
+                </div>
+                <div class="text-section text-section-odd">
+                    <h2>Learned with Curiosity</h2>
+                    <p>Months ago, that was my first time when I built up a static web page, after I learned HTML and CSS by myself in one month.</p>
+                </div>
+            </div>
+            <div class="article-preview">
+                <div class="img-section img-section2">
+                    <img src="img/pic02.jpg" alt="">
+                    <img src="img/pic05.jpg" alt="">
+                </div>
+                <div class="text-section text-section-even">
+                    <h2>Accumulated Experience</h2>
+                    <p>Then I tented to add some features to my personal website, therefore, I learned JavaScript and Jquery. Also, for more animation, CSS3 is key role.</p>
+                </div>
+            </div>
+            <div class="article-preview">
+                <div class="img-section">
+                    <img src="img/pic03.jpg" alt="">
+                    <img src="img/pic06.jpg" alt="">
+                </div>
+                <div class="text-section text-section-odd">
+                    <h2>Chasing My Dream</h2>
+                    <!-- 	<div class="sub-heading">I am sub-heading</div> -->
+                    <p>Finally, I have basic knowledge of CSS3 and Jquery through my constant exercise. At present, building a blog with lots of features developed by AngularJS, Node.js and mongoDB is my next plan.</p>
+                </div>
+            </div>
+        </section>
+        <section class="purple-section">
+            <div class="wrapper">
+                <div class="heading-wrapper">
+                    <div class="sentence-outer-wrap">
+                        <div class="sentence-inner-wrap">
+                            <h2 class="sentence1">What can I do?</h2>
+                            <h2 class="sentence2">Do what I love to do.</h2>
+                        </div>
+                    </div>
+                    <div class="hr"></div>
+                </div>
+                <div class="card-group clearfix">
+                    <div class="card">
+                        <h3>HTML5</h3>
+                        <p>It is a new version of the language HTML, with new elements, attributes, and behaviors, and a larger set of technologies that allows more diverse and powerful Web sites and applications.</p>
+                    </div>
+                    <div class="card">
+                        <h3>CSS3</h3>
+                        <p> It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions or animations, as well as new layouts like multi-columns, flexible box or grid layouts.</p>
+                    </div>
+                    <div class="card">
+                        <h3>JavaScript</h3>
+                        <p>JavaScript is a high-level, dynamic, untyped, and interpreted programming language. Alongside HTML and CSS, it is one of the three core technologies of World Wide Web content production; </p>
+                    </div>
+                    <div class="card">
+                        <h3>AngularJS</h3>
+                        <p>AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Node.js</h3>
+                        <p>Node.js is an open-source, cross-platform runtime environment for developing server-side Web applications. Many of its basic modules are written in JavaScript, and developers can write new modules in JavaScript.  </p>
+                    </div>
+                    <div class="card">
+                        <h3>Bootstrap</h3>
+                        <p>Bootstrap is a open-source front-end web framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation as well as optional JavaScript extensions. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <ul class="share-group">
+            <li><a href="#" target="_blank">Facebook</a></li>
+            <li><a href="#" target="_blank">GitHub</a></li>
+            <li><a href="#" target="_blank">linkedin</a></li>
+        </ul>
+        <div class="copy">
+            &copy; TongLi
+        </div>
+    </footer>
 
-<ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li style="float:right"><a href="#about">About</a></li>
-</ul>
-
+    <div class="scroll-wrapper">
+        <a href="#" ><span class="scroll">	</span></a>
+    </div>
+</div>
 </body>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="animation.js"></script>
 </html>
