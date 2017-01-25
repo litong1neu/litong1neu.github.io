@@ -1,5 +1,7 @@
 # litong1neu.github.io
-\ngit clone [url]
-git add [filename]
-git commit -m ["message"]
-git push
+<ul>
+<li>git clone [url]</li>
+<li>git add [filename]</li>
+<li>git commit -m ["message"]</li>
+<li>git push</li>
+</ul>
